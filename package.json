@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/shovon/github-actons-package-take-2"
+		"url": "https://github.com/shovon/github-actons-package-take-2.git"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
