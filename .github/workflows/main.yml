@@ -15,7 +15,7 @@ jobs:
           node-version: 18
           registry-url: https;//npm.pkg.github.com/
           scope: "@shovon"
-      - run: echo $NODE_AUTH_TOKEN
+      - run: echo This $NODE_AUTH_TOKEN
       - run: npm install
       - run: npm publish
         env:
