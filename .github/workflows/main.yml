@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          registry-url: https;//npm.pkg.github.com/
+          registry-url: http://npm.pkg.github.com/
           scope: "@shovon"
       - run: echo This $NODE_AUTH_TOKEN
       - run: npm install
