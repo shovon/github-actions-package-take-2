@@ -21,7 +21,8 @@ jobs:
           registry-url: "https://npm.pkg.github.com"
           scope: "@shovon"
       # - run: npm ci
-      - run: cat .npmrc
+      - run: echo '//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}' >> .npmrc
+      - run: echo '@shovon:registry=https://npm.pkg.github.com' >> .npmrc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
