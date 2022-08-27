@@ -1,5 +1,5 @@
 {
-	"name": "private-npm-example",
+	"name": "@shovon/private-npm-example",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
