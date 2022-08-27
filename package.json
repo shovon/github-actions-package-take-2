@@ -3,9 +3,6 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
-	"publishConfig": {
-		"registry": "https://npn.pkg.github.com/@shovon"
-	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/shovon/github-actons-package-take-2.git"
